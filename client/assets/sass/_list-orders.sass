@@ -1,0 +1,37 @@
+.box
+    .head
+        border-bottom: 2px solid rgba(#000, 0.1)
+        width: 100%
+        &.input
+            display: flex
+            flex-direction: row
+            justify-content: space-around
+            padding-bottom: 5px
+            input
+                border: none
+                outline: none
+                width: 50%
+    .content
+        padding: 4% 0
+        .f-raw, .s-raw
+            display: flex
+            flex-direction: row
+            justify-content: center
+            .stadistic
+                display: flex
+                flex-direction: column
+                align-items: center
+                line-height: 23px
+                .number
+                    font-size: 30px
+        .s-raw
+            justify-content: space-around
+        .notif
+            padding: 5% 3%
+            display: flex
+            flex-direction: row
+            justify-content: space-around
+            &.green
+                border-left: 2px solid $greenColor
+            &.yellow
+                border-left: 3px solid $yellowColor
