@@ -43,8 +43,8 @@ var controller = {
     
     
               /* URLS DE REDIRECCION */
-              var success_url = 'http://localhost:4200/success';
-              var cancel_url = 'http://localhost:4200/cancel';
+              var success_url = 'http://ecommerce.danielarandabriefcase.com/success';
+              var cancel_url = 'http://ecommerce.danielarandabriefcase.com/cancel';
               /* URLS DE REDIRECCION */
       
       
